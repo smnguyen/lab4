@@ -5,6 +5,8 @@
 
 exports.view = function(req, res){
   res.render('index', {
+  	'pageTitle': 'Sammy Nguyen',
+  	'pageDescription': 'human-computer interaction · social computing · crowdsourcing',
     'projects': [
       { 'name': 'Waiting in Line',
         'image': 'lorempixel.people.1.jpeg',
